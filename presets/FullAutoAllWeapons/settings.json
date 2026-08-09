@@ -1,0 +1,13 @@
+{
+  "modifierKey": "IK_Minus",
+  "enabled": true,
+  "releaseGraceDuration": 0.12,
+  "doubleClickWindow": 0.4,
+  "activationMode": 2,
+  "firstTapMaxDuration": 0.25,
+  "modifierActsAsHeavy": true,
+  "rangedAutoFire": true,
+  "meleeAutoRepeat": true,
+  "acceptLegacyCETBinding": false,
+  "controllerDoubleClick": true
+}

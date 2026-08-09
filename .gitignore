@@ -1,0 +1,6 @@
+*.zip
+*.log
+*.redscripts
+FreedomModpack-Diagnostic.txt
+build/
+dist/

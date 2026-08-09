@@ -1,0 +1,10 @@
+{
+  "healthScalingEnabled": true,
+  "hpPerLevel": 7,
+  "armorScalingEnabled": true,
+  "armorEffPerLevel": 0.017000000923872,
+  "extraPerkPointEnabled": true,
+  "appliedBonusHP": 0,
+  "appliedBonusArmor": 0,
+  "maxLevel": 300
+}

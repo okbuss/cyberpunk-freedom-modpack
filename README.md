@@ -1,0 +1,68 @@
+# Cyberpunk Freedom Modpack
+
+> Beta: back up saves before installing.
+
+A progression-focused Cyberpunk 2077 2.31 modpack for the base game. It removes
+level, attribute, cyberware, weapon-mod, hacking, ownership, appearance, and
+New Game Plus restrictions without bundling cosmetic payloads, free-item
+menus, companions, photo tools, or unrelated content.
+
+The release ZIP contains only mods authored and published by `okbuss`, plus
+portable configuration presets. Third-party Nexus files are not redistributed;
+their tested source pages are listed in [DEPENDENCIES.md](DEPENDENCIES.md).
+
+## Included Custom Mods
+
+- [Cyberware Stacking v0.2.0-beta.2](https://github.com/okbuss/cyberware-stacking/releases/tag/v0.2.0-beta.2)
+- [Cyberware Slot Freedom v0.1.0-beta.1](https://github.com/okbuss/cyberware-slot-freedom/releases/tag/v0.1.0-beta.1)
+- [Weapon Mod Freedom v1.0.0](https://github.com/okbuss/weapon-mod-freedom/releases/tag/v1.0.0)
+- [Ten Weapon Slots v0.1.0-beta.1](https://github.com/okbuss/ten-weapon-slots/releases/tag/v0.1.0-beta.1)
+- [Weapon Mod Slot Pager v1.0.0](https://github.com/okbuss/weapon-mod-slot-pager/releases/tag/v1.0.0)
+- [Freedom Overdrive v1.0.0-beta.1](https://github.com/okbuss/freedom-overdrive/releases/tag/v1.0.0-beta.1)
+- [Vehicle Quickhack Freedom v1.0.0](https://github.com/okbuss/vehicle-quickhack-freedom/releases/tag/v1.0.0)
+- [Underwater Vehicle Freedom v1.0.0](https://github.com/okbuss/underwater-vehicle-freedom/releases/tag/v1.0.0)
+- [Full Auto All Weapons v1.3.1](https://github.com/okbuss/full-auto-all-weapons/releases/tag/v1.3.1)
+
+## Installation
+
+1. Back up the saves you intend to use.
+2. Close Cyberpunk 2077.
+3. Install the required third-party stack in `DEPENDENCIES.md` first.
+4. Remove the old Nexus Weapon Mod Overdrive CET folder if present:
+   `bin\x64\plugins\cyber_engine_tweaks\mods\overdrive`.
+5. Do not install Cyberware-EX X13 or another
+   `CyberwareEx.Customization.reds`; this pack supplies its own configuration.
+6. Extract the release ZIP into the Cyberpunk 2077 root folder, one level above
+   `bin` and `r6`, and merge folders.
+7. Run `VERIFY_FREEDOM_PACK.cmd` from the game folder.
+8. Start the game and wait for REDscript compilation to complete.
+
+Do not drag the included `r6` folder into the game's existing `r6` folder. The
+correct operation is to drag `bin` and `r6` onto the Cyberpunk 2077 root.
+
+## Presets
+
+- Beyond60 maximum level: 300, normal health/armor scaling, and one extra perk
+  point per post-60 level. Save-derived counters start at zero.
+- Enhanced Cyberware Capacity: +1000 flat capacity and +6.65 per level.
+- Cyberware-EX: 20 purchasable slots in every configured area, free expansion,
+  combined abilities, and no destructive slot reset.
+- Full Auto All Weapons: current tested input timing with Minus as the dedicated
+  heavy/charge key.
+- Weapon layouts: ten modification slots plus four-row UI paging.
+
+## Known Risks
+
+Cyberware Stacking remains beta. Equipped implants can appear visually
+duplicated, leg cyberware stacking is experimental, and some stateful effects
+remain single-instance for save safety. Freedom Overdrive and Ten Weapon Slots
+are also beta components. Keep a pre-install save and do not repeatedly add and
+remove these components on one save.
+
+## Scope
+
+No body, skin, clothing pack, lingerie, pose, PhotoMode, Virtual Atelier store,
+Flying Tank, Arasaka Security, Pink Mist, FreeFly, cheat command, save,
+diagnostic probe, cache, log, or personal keybind database is included.
+
+See [MANIFEST.md](MANIFEST.md) for the exact payload.
