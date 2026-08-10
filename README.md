@@ -14,7 +14,7 @@ their tested source pages are listed in [DEPENDENCIES.md](DEPENDENCIES.md).
 ## Included Custom Mods
 
 - [Cyberware Stacking v0.2.0-beta.2](https://github.com/okbuss/cyberware-stacking/releases/tag/v0.2.0-beta.2)
-- [Cyberware Slot Freedom v0.1.0-beta.1](https://github.com/okbuss/cyberware-slot-freedom/releases/tag/v0.1.0-beta.1)
+- [Cyberware Slot Freedom v0.1.0-beta.2](https://github.com/okbuss/cyberware-slot-freedom/releases/tag/v0.1.0-beta.2)
 - [Weapon Mod Freedom v1.0.0](https://github.com/okbuss/weapon-mod-freedom/releases/tag/v1.0.0)
 - [Ten Weapon Slots v0.1.0-beta.1](https://github.com/okbuss/ten-weapon-slots/releases/tag/v0.1.0-beta.1)
 - [Weapon Mod Slot Pager v1.0.0](https://github.com/okbuss/weapon-mod-slot-pager/releases/tag/v1.0.0)
@@ -30,12 +30,14 @@ their tested source pages are listed in [DEPENDENCIES.md](DEPENDENCIES.md).
 3. Install the required third-party stack in `DEPENDENCIES.md` first.
 4. Remove the old Nexus Weapon Mod Overdrive CET folder if present:
    `bin\x64\plugins\cyber_engine_tweaks\mods\overdrive`.
-5. Do not install Cyberware-EX X13 or another
+5. Reinstall pristine Cyberware-EX 1.5.6 and More Weapon Mod Slots 1.3 if
+   either mod was manually edited by an older version of this setup.
+6. Do not install Cyberware-EX X13 or another
    `CyberwareEx.Customization.reds`; this pack supplies its own configuration.
-6. Extract the release ZIP into the Cyberpunk 2077 root folder, one level above
+7. Extract the release ZIP into the Cyberpunk 2077 root folder, one level above
    `bin` and `r6`, and merge folders.
-7. Run `VERIFY_FREEDOM_PACK.cmd` from the game folder.
-8. Start the game and wait for REDscript compilation to complete.
+8. Run `VERIFY_FREEDOM_PACK.cmd` from the game folder.
+9. Start the game and wait for REDscript compilation to complete.
 
 Do not drag the included `r6` folder into the game's existing `r6` folder. The
 correct operation is to drag `bin` and `r6` onto the Cyberpunk 2077 root.
@@ -50,6 +52,16 @@ correct operation is to drag `bin` and `r6` onto the Cyberpunk 2077 root.
 - Full Auto All Weapons: current tested input timing with Minus as the dedicated
   heavy/charge key.
 - Weapon layouts: ten modification slots plus four-row UI paging.
+
+## Compatibility Architecture
+
+The pack keeps Cyberware-EX and More Weapon Mod Slots pristine. Their freedom
+changes are supplied by Cyberware Slot Freedom and Ten Weapon Slots as separate
+add-ons. Freedom Overdrive independently configures native iconic modifier
+records and replaces the previously edited Nexus Overdrive installation.
+
+Universal Cyberdeck Targeting and Vehicle Quickhack Freedom are complementary:
+the former handles active NPCs and crowds, while the latter handles vehicles.
 
 ## Known Risks
 

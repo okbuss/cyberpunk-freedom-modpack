@@ -5,7 +5,7 @@
 | Component | Version | Stability |
 | --- | --- | --- |
 | Cyberware Stacking | 0.2.0-beta.2 | Beta |
-| Cyberware Slot Freedom | 0.1.0-beta.1 | Beta |
+| Cyberware Slot Freedom | 0.1.0-beta.2 | Beta |
 | Weapon Mod Freedom | 1.0.0 | Stable |
 | Ten Weapon Slots | 0.1.0-beta.1 | Beta |
 | Weapon Mod Slot Pager | 1.0.0 | Stable |
@@ -21,6 +21,8 @@
 - `FullAutoAllWeapons/settings.json`: tested hold, charge, and timing controls.
 - `CyberwareEx.Customization.reds`: 20 slots per area, zero expansion price,
   combined abilities.
+- `CyberwareSlotFreedom/init.lua`: blocks Cyberware-EX slot resets at the
+  underlying manager method without editing Cyberware-EX.
 
 ## Excluded
 
@@ -30,3 +32,9 @@
 - Cosmetic items, stores, bodies, skins, poses, and photo tools.
 - Companion, tank, noclip, pink-mist, cheat, and arcade-score mods.
 - Saves, logs, caches, diagnostic probes, settings databases, and keybind data.
+
+## Linked Freedom Dependency
+
+- Universal Cyberdeck Targeting 1.0.1 is linked rather than redistributed. It
+  provides NPC and crowd quickhacking; Vehicle Quickhack Freedom covers
+  vehicles separately.

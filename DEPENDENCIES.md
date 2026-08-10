@@ -19,8 +19,8 @@ the tested variants below before extracting the Freedom Modpack.
 | More Weapon Mod Slots | six-slot 1.3 setup | https://www.nexusmods.com/cyberpunk2077/mods/21644 |
 
 Do not add Cyberware-EX X13 on top. Cyberware Slot Freedom replaces that
-configuration role. Universal Cyberdeck Targeting is also redundant because
-Vehicle Quickhack Freedom supplies an independent vehicle implementation.
+configuration role. Use pristine Cyberware-EX 1.5.6 and pristine More Weapon
+Mod Slots 1.3; the pack extends them without replacing their source files.
 
 ## Progression And Freedom Extensions
 
@@ -30,6 +30,7 @@ requirements; cosmetic optional files are unnecessary.
 
 | Freedom area | Component | Tested version/source |
 | --- | --- | --- |
+| NPC and crowd quickhacking | Universal Cyberdeck Targeting | 1.0.1, https://www.nexusmods.com/cyberpunk2077/mods/31409 |
 | Attribute ceiling | Attributes Uncapped | https://www.nexusmods.com/cyberpunk2077/mods/21223 |
 | Character creation | No Character Creation Attribute Restrictions | https://www.nexusmods.com/cyberpunk2077/mods/8352 |
 | Appearance editing | Appearance Change Unlocker | https://www.nexusmods.com/cyberpunk2077/mods/3850 |
@@ -45,3 +46,6 @@ requirements; cosmetic optional files are unnecessary.
 New Game Plus and Depeche Mods may list additional requirements on their own
 pages, including Mod Settings. Follow each source page rather than installing
 an old dependency copy from another pack.
+
+Universal Cyberdeck Targeting and Vehicle Quickhack Freedom should both be
+installed. They cover different target classes and do not replace each other.
