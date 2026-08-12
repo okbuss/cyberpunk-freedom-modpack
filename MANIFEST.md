@@ -9,7 +9,7 @@
 | Weapon Mod Freedom | 1.0.0 | Stable |
 | Ten Weapon Slots | 0.1.0-beta.1 | Beta |
 | Weapon Mod Slot Pager | 1.0.0 | Stable |
-| Freedom Overdrive | 1.0.0-beta.1 | Beta |
+| Freedom Overdrive | 1.1.0-beta.1 | Beta |
 | Vehicle Quickhack Freedom | 1.0.0 | Stable |
 | Underwater Vehicle Freedom | 1.0.0 | Stable |
 | Full Auto All Weapons | 1.3.1 | Stable |

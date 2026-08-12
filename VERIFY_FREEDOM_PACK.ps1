@@ -55,6 +55,7 @@ $customFiles = @(
     "r6\scripts\CyberwareStacker\CyberwareStackerEffects.reds",
     "r6\scripts\CyberwareSlotFreedom\CyberwareSlotFreedom.reds",
     "r6\scripts\FreedomOverdrive\FreedomOverdrive.reds",
+    "r6\scripts\FreedomOverdrive\FreedomOverdriveExplosives.reds",
     "r6\scripts\FreedomOverdrive\FreedomOverdriveTooltips.reds",
     "r6\scripts\FullAutoAllWeapons\FullAutoAllWeapons.reds",
     "r6\scripts\TenWeaponSlots\TenWeaponSlots.reds",
@@ -63,6 +64,7 @@ $customFiles = @(
     "r6\scripts\UnderwaterVehicleFreedom\UnderwaterVehicleFreedom.reds",
     "r6\tweaks\Weapon Mod Freedom\Weapon Mod Freedom.yaml",
     "r6\tweaks\Ten Weapon Slots\Ten Weapon Slots.yaml",
+    "r6\tweaks\FreedomOverdrive\ExplosiveImpactTransfers.yaml",
     "r6\tweaks\UnderwaterVehicleFreedom.yaml",
     "bin\x64\plugins\cyber_engine_tweaks\mods\CyberwareSlotFreedom\init.lua",
     "bin\x64\plugins\cyber_engine_tweaks\mods\FreedomOverdrive\init.lua",
@@ -174,7 +176,7 @@ if (Test-Path -LiteralPath $log -PathType Leaf) {
     Add-Result "INFO" "No current REDscript log yet. Launch and close the game once, then rerun."
 }
 
-[void]$report.Insert(0, "Cyberpunk Freedom Modpack v1.0.0-beta.2 diagnostic")
+[void]$report.Insert(0, "Cyberpunk Freedom Modpack v1.0.0-beta.3 diagnostic")
 [void]$report.Insert(1, "Generated: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss K')")
 [void]$report.Insert(2, "")
 [void]$report.Add("")

@@ -18,7 +18,7 @@ their tested source pages are listed in [DEPENDENCIES.md](DEPENDENCIES.md).
 - [Weapon Mod Freedom v1.0.0](https://github.com/okbuss/weapon-mod-freedom/releases/tag/v1.0.0)
 - [Ten Weapon Slots v0.1.0-beta.1](https://github.com/okbuss/ten-weapon-slots/releases/tag/v0.1.0-beta.1)
 - [Weapon Mod Slot Pager v1.0.0](https://github.com/okbuss/weapon-mod-slot-pager/releases/tag/v1.0.0)
-- [Freedom Overdrive v1.0.0-beta.1](https://github.com/okbuss/freedom-overdrive/releases/tag/v1.0.0-beta.1)
+- [Freedom Overdrive v1.1.0-beta.1](https://github.com/okbuss/freedom-overdrive/releases/tag/v1.1.0-beta.1)
 - [Vehicle Quickhack Freedom v1.0.0](https://github.com/okbuss/vehicle-quickhack-freedom/releases/tag/v1.0.0)
 - [Underwater Vehicle Freedom v1.0.0](https://github.com/okbuss/underwater-vehicle-freedom/releases/tag/v1.0.0)
 - [Full Auto All Weapons v1.3.1](https://github.com/okbuss/full-auto-all-weapons/releases/tag/v1.3.1)
@@ -58,7 +58,9 @@ correct operation is to drag `bin` and `r6` onto the Cyberpunk 2077 root.
 The pack keeps Cyberware-EX and More Weapon Mod Slots pristine. Their freedom
 changes are supplied by Cyberware Slot Freedom and Ten Weapon Slots as separate
 add-ons. Freedom Overdrive independently configures native iconic modifier
-records and replaces the previously edited Nexus Overdrive installation.
+records and replaces the previously edited Nexus Overdrive installation. Its
+explosive iconic modifiers carry their terminal explosion to ranged and melee
+hosts, including scenery impacts, without recursively triggering themselves.
 
 Universal Cyberdeck Targeting and Vehicle Quickhack Freedom are complementary:
 the former handles active NPCs and crowds, while the latter handles vehicles.
@@ -66,10 +68,12 @@ the former handles active NPCs and crowds, while the latter handles vehicles.
 ## Known Risks
 
 Cyberware Stacking remains beta. Equipped implants can appear visually
-duplicated, leg cyberware stacking is experimental, and some stateful effects
-remain single-instance for save safety. Freedom Overdrive and Ten Weapon Slots
-are also beta components. Keep a pre-install save and do not repeatedly add and
-remove these components on one save.
+duplicated, and identical Jenkins Tendons packages are stack-enabled even
+though the HUD collapses them to one icon. Stateful third-party leg packages
+such as Black Chrome Fortress Legs remain single-instance for save safety,
+including their speed effect. Freedom Overdrive and Ten Weapon Slots are also
+beta components. Keep a pre-install save and do not repeatedly add and remove
+these components on one save.
 
 ## Scope
 
