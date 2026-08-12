@@ -4,7 +4,7 @@
 
 | Component | Version | Stability |
 | --- | --- | --- |
-| Cyberware Stacking | 0.2.0-beta.2 | Beta |
+| Cyberware Stacking | 0.2.0-beta.3 | Beta |
 | Cyberware Slot Freedom | 0.1.0-beta.2 | Beta |
 | Weapon Mod Freedom | 1.0.0 | Stable |
 | Ten Weapon Slots | 0.1.0-beta.1 | Beta |
@@ -13,6 +13,7 @@
 | Vehicle Quickhack Freedom | 1.0.0 | Stable |
 | Underwater Vehicle Freedom | 1.0.0 | Stable |
 | Full Auto All Weapons | 1.3.1 | Stable |
+| Fortress Legs Freedom | 1.1.0 | Stable; dormant without Black Chrome |
 
 ## Bundled Presets
 
@@ -28,7 +29,8 @@
 
 - All third-party executables, DLLs, scripts, archives, and content payloads.
 - Weapon Mod Overdrive source or assets.
-- Fortress Legs Freedom, because it depends on unrelated Black Chrome content.
+- Black Chrome content. Fortress Legs Freedom is included, but its source
+  cyberware records and assets are not.
 - Cosmetic items, stores, bodies, skins, poses, and photo tools.
 - Companion, tank, noclip, pink-mist, cheat, and arcade-score mods.
 - Saves, logs, caches, diagnostic probes, settings databases, and keybind data.

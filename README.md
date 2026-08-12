@@ -13,7 +13,7 @@ their tested source pages are listed in [DEPENDENCIES.md](DEPENDENCIES.md).
 
 ## Included Custom Mods
 
-- [Cyberware Stacking v0.2.0-beta.2](https://github.com/okbuss/cyberware-stacking/releases/tag/v0.2.0-beta.2)
+- [Cyberware Stacking v0.2.0-beta.3](https://github.com/okbuss/cyberware-stacking/releases/tag/v0.2.0-beta.3)
 - [Cyberware Slot Freedom v0.1.0-beta.2](https://github.com/okbuss/cyberware-slot-freedom/releases/tag/v0.1.0-beta.2)
 - [Weapon Mod Freedom v1.0.0](https://github.com/okbuss/weapon-mod-freedom/releases/tag/v1.0.0)
 - [Ten Weapon Slots v0.1.0-beta.1](https://github.com/okbuss/ten-weapon-slots/releases/tag/v0.1.0-beta.1)
@@ -22,6 +22,7 @@ their tested source pages are listed in [DEPENDENCIES.md](DEPENDENCIES.md).
 - [Vehicle Quickhack Freedom v1.0.0](https://github.com/okbuss/vehicle-quickhack-freedom/releases/tag/v1.0.0)
 - [Underwater Vehicle Freedom v1.0.0](https://github.com/okbuss/underwater-vehicle-freedom/releases/tag/v1.0.0)
 - [Full Auto All Weapons v1.3.1](https://github.com/okbuss/full-auto-all-weapons/releases/tag/v1.3.1)
+- [Fortress Legs Freedom v1.1.0](https://github.com/okbuss/fortress-legs-freedom/releases/tag/v1.1.0) (optional Black Chrome integration)
 
 ## Installation
 
@@ -69,11 +70,12 @@ the former handles active NPCs and crowds, while the latter handles vehicles.
 
 Cyberware Stacking remains beta. Equipped implants can appear visually
 duplicated, and identical Jenkins Tendons packages are stack-enabled even
-though the HUD collapses them to one icon. Stateful third-party leg packages
-such as Black Chrome Fortress Legs remain single-instance for save safety,
-including their speed effect. Freedom Overdrive and Ten Weapon Slots are also
-beta components. Keep a pre-install save and do not repeatedly add and remove
-these components on one save.
+though the HUD collapses them to one icon. Jenkins movement stacks now pass
+through both the stat and native ground-speed ceilings. Fortress Legs Freedom
+keeps Black Chrome's stateful defense package single-instance but separates its
+speed bonus into a safe stackable package. Freedom Overdrive and Ten Weapon
+Slots are also beta components. Keep a pre-install save and do not repeatedly
+add and remove these components on one save.
 
 ## Scope
 

@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0-beta.4 - 2026-08-12
+
+- Upgrade Cyberware Stacking to 0.2.0-beta.3.
+- Lift the two `MaxSpeed` stat ceilings and both native ground-locomotion
+  ceilings so stacked Jenkins Tendons produce real speed above `15 m/s`.
+- Bundle Fortress Legs Freedom 1.1.0 as an optional Black Chrome integration.
+- Split each Fortress Legs speed modifier into a safe stackable package while
+  preserving Black Chrome's stateful defense package as single-instance.
+
 ## 1.0.0-beta.3 - 2026-08-12
 
 - Upgrade Freedom Overdrive to 1.1.0-beta.1.
