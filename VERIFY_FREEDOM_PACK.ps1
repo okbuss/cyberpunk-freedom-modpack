@@ -68,7 +68,8 @@ $customFiles = @(
     "r6\tweaks\UnderwaterVehicleFreedom.yaml",
     "bin\x64\plugins\cyber_engine_tweaks\mods\CyberwareSlotFreedom\init.lua",
     "bin\x64\plugins\cyber_engine_tweaks\mods\FreedomOverdrive\init.lua",
-    "bin\x64\plugins\cyber_engine_tweaks\mods\FullAutoAllWeapons\init.lua"
+    "bin\x64\plugins\cyber_engine_tweaks\mods\FullAutoAllWeapons\init.lua",
+    "bin\x64\plugins\cyber_engine_tweaks\mods\FortressLegsFreedom\init.lua"
 )
 
 $requiredFiles = @(
@@ -176,7 +177,7 @@ if (Test-Path -LiteralPath $log -PathType Leaf) {
     Add-Result "INFO" "No current REDscript log yet. Launch and close the game once, then rerun."
 }
 
-[void]$report.Insert(0, "Cyberpunk Freedom Modpack v1.0.0-beta.3 diagnostic")
+[void]$report.Insert(0, "Cyberpunk Freedom Modpack v1.0.0-beta.4 diagnostic")
 [void]$report.Insert(1, "Generated: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss K')")
 [void]$report.Insert(2, "")
 [void]$report.Add("")

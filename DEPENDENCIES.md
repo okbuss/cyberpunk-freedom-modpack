@@ -42,6 +42,7 @@ requirements; cosmetic optional files are unnecessary.
 | New Game Plus | New Game Plus - Native | 1.3.1, https://www.nexusmods.com/cyberpunk2077/mods/15043 |
 | Vehicle ownership | Claim Or Sell Any Vehicles | 0.43d, https://www.nexusmods.com/cyberpunk2077/mods/29620 |
 | Door and vehicle access | Open Sesame | https://github.com/Nats-ji/Cyberpunk-Open-Sesame-Mod |
+| Optional Fortress Legs integration | Black Chrome | 1.1.10, https://www.nexusmods.com/cyberpunk2077/mods/16031 (not redistributed; the pack includes only Fortress Legs Freedom) |
 
 New Game Plus and Depeche Mods may list additional requirements on their own
 pages, including Mod Settings. Follow each source page rather than installing
